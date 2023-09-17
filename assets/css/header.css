@@ -129,19 +129,26 @@ nav li {
 
   nav {
     position: absolute;
-    margin-top: 75px;
+    margin-top: 90px;
+    background-color: #171f53;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .navbar {
     width: 100%;
-    padding: 5px 20px;
+    max-width: 450px;
+    min-width: 375px;
+    padding: 5px 10px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     background-color: #171f53;
   }
 
   .navbar li {
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 2px 10px;
     margin: 0px;
     text-align: center;
