@@ -111,7 +111,7 @@ nav li {
   display: none;
 }
 
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .main-header img {
     height: auto;
     width: 60%;
