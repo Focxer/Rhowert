@@ -468,10 +468,9 @@ footer {
     width: 95%;
   }
 
-  .services video {
+  .machines video {
     width: 50%;
     height: 50%;
-    /* margin-top: -40px; */
   }
 
   .iso img {
