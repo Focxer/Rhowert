@@ -2,8 +2,8 @@
   content: "";
   width: 100%;
   height: 100%;
-  max-height: 120px;
-  min-height: 120px;
+  max-height: 95px;
+  min-height: 95px;
   background-color: var(--primaria);
 }
 
@@ -32,6 +32,7 @@ main {
   max-width: 900px;
   width: 900px;
   height: 100%;
+  margin-bottom: 50px;
 
   display: flex;
   justify-content: center;
@@ -72,14 +73,11 @@ main {
   width: 450px;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
-  padding: 10px;
   object-fit: contain;
 }
 
 .bending,
 .laser {
-  margin-bottom: 50px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -114,7 +112,7 @@ main {
 }
 
 .welding {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 
   display: flex;
   justify-content: space-around;
@@ -196,18 +194,17 @@ main {
   width: 900px;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
 }
 
 .aboutus video {
-  height: auto;
+  height: 100%;
   width: 500px;
-  margin-left: -50px;
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
   border-radius: 1rem;
-  padding: 10px;
+  padding: 30px 20px 30px 20px;
 }
 
 .aboutus ul {
@@ -238,12 +235,6 @@ main {
   align-items: center;
 }
 
-.aboutus img {
-  height: auto;
-  width: 100%;
-  max-width: 500px;
-}
-
 .aboutus-text ul {
   margin-left: 25px;
   display: flex;
@@ -263,9 +254,10 @@ main {
 .maps {
   margin-top: 100px;
   margin-bottom: 100px;
+  width: 900px;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -447,15 +439,10 @@ footer {
     display: none;
   }
 
-  .bending,
-  .welding,
-  .laser {
-    margin-bottom: 45px;
-  }
-
   .bending ul,
   .laser ul {
     margin-left: 25px;
+    margin-bottom: 0px;
   }
 
   .bending h2,
@@ -470,6 +457,7 @@ footer {
 
   .welding ul {
     margin-right: 25px;
+    margin-bottom: 0px;
   }
 
   .services,
@@ -483,7 +471,7 @@ footer {
   .services video {
     width: 50%;
     height: 50%;
-    margin-top: -40px;
+    /* margin-top: -40px; */
   }
 
   .iso img {
@@ -520,6 +508,10 @@ footer {
     text-align: center;
     margin-bottom: 10px;
     font-size: 2.5rem;
+  }
+
+  .aboutus p {
+    margin-bottom: 0px;
   }
 
   .aboutus video {
