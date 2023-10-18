@@ -89,6 +89,22 @@
           <a href="#contato"><li>Contato</li></a>
         </ul>
       </nav>
+
+      <span class="menutoggle" id="menutoggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </span>
+
+      <div class="menuburger" id="menuburger">
+        <nav>
+          <a href="#inicio">Inicio</a>
+
+          <a href="#servicos">Serviços e Produtos</a>
+
+          <a href="#sobrenos">Sobre Nós</a>
+
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
     </header>
 
     <main>
@@ -102,7 +118,7 @@
         ></video>
       </div>
 
-      <div class="services" id="servicos">
+      <div class="services" id="servicos" style="scroll-margin-top: 100px;">
         <ul>
           <li>
             <h1>SERVIÇOS E</h1>
@@ -199,7 +215,7 @@
         </ul>
       </div>
 
-      <div class="aboutus" id="sobrenos">
+      <div class="aboutus" id="sobrenos" style="scroll-margin-top: 100px;">
         <ul>
           <li>
             <h1>SOBRE A RHOWERT</h1>
@@ -383,6 +399,18 @@
         <div class="footer-copyright">Design by Bruno Nascimento</div>
       </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    const menutoggle = document.getElementById('menutoggle');
+    const menuburger = document.getElementById('menuburger');
+
+    menutoggle.addEventListener('click', () => {if (menuburger.style.display !='block') {
+      menuburger.style.display='block';
+    } else {
+      menuburger.style.display='none';
+    }});
+
+    menuburger.addEventListener('click', () => menuburger.style.display='none');
+  </script>
   </body>
 </html>

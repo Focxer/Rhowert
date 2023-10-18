@@ -2,8 +2,10 @@
 
 :root {
   --primaria: #293795;
-  --secundaria: #eeeeee;
+  --secundaria: #f3f3f3;
   --terciaria: #252525;
+  --secundariahover: #cccccc;
+  -webkit-font-smoothing: antialiased;
 }
 
 * {
@@ -15,7 +17,6 @@
 
 html {
   font-size: 62.5%;
-  -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
 }
