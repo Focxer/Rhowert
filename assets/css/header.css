@@ -98,8 +98,13 @@ nav li {
   font-weight: 600;
 }
 
+.navbar{
+  display: flex;
+  gap: 8px;
+}
+
 .navbar li {
-  padding: 5px 20px;
+  padding: 2px 5px;
 }
 
 .navbar li:hover {
@@ -157,12 +162,12 @@ nav li {
     margin-left: -20px;
   }
 
-  .navbar li {
+ .navbar li {
+    font-size: 2.8rem;
+  }
+
+  .contato li{
     font-size: 2.2rem;
-    padding: 5px 10px;
-    margin: 0px;
-    text-align: end;
-    font-weight: 600;
   }
 }
 
